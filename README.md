@@ -1,1 +1,3 @@
-# dme-mini-project
+# DME Mini-Project
+
+Dataset: THE SUPERCOSMOS SKY SURVEY OBJECTS CATALOGUE
