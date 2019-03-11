@@ -17,3 +17,8 @@ conda install numpy matplotlib pandas ipython jupyter astropy
 FITS:
 - Info: https://heasarc.gsfc.nasa.gov/docs/heasarc/fits.html
 - Importing: http://docs.astropy.org/en/stable/io/fits/
+
+Importing the dataset:
+1. Download the `zip` file emailed round or go to `/afs/inf.ed.ac.uk/group/ANC/IRDS/miniproject-data/SuperCOSMOS` and email yourself the file
+2. Extract `zip`
+3. Drag `SuperCOSMOS` folder in `datasets/`
