@@ -8,3 +8,8 @@ Related papers to dataset:
 - https://arxiv.org/abs/astro-ph/0108286
 - **https://arxiv.org/abs/astro-ph/0108290** (important paper)
 - https://arxiv.org/abs/astro-ph/0108291
+
+Install requirements:
+```
+conda install numpy matplotlib pandas ipython jupyter astropy
+```
