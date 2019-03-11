@@ -13,3 +13,7 @@ Install requirements:
 ```
 conda install numpy matplotlib pandas ipython jupyter astropy
 ```
+
+FITS:
+- Info: https://heasarc.gsfc.nasa.gov/docs/heasarc/fits.html
+- Importing: http://docs.astropy.org/en/stable/io/fits/
