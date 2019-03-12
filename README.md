@@ -11,7 +11,7 @@ Related papers to dataset:
 
 Install requirements:
 ```
-conda install numpy matplotlib pandas ipython jupyter astropy
+conda install numpy matplotlib pandas ipython jupyter astropy seaborn
 ```
 
 FITS:
