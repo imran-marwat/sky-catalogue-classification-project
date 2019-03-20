@@ -11,3 +11,11 @@ def ellipticity(a_i, b_i):
 
 def filling_factor(area, a_u, b_u):
     return area / (pi * a_u * b_u)
+
+def normalise_sdss_class(df):
+    classes = {
+        6: 2,
+        3: 1
+    }
+    df['CLASS_SDSS'] = df['CLASS_SDSS'].apply(lambda x: classes[x])
+    return df
