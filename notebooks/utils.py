@@ -18,4 +18,3 @@ def normalise_sdss_class(df):
         3: 1
     }
     df['CLASS_SDSS'] = df['CLASS_SDSS'].apply(lambda x: classes[x])
-    return df
