@@ -7,7 +7,7 @@ irrelevant_indices = [0, 1, 2, 3, 4, 5, 10, 11, 18, 19, 20, 21, 22, 23, 24, 25, 
 relevant_indices = [6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
 
 def ellipticity(a_i, b_i):
-    return (1 - b_i) / a_i
+    return 1 - (b_i / a_i)
 
 def filling_factor(area, a_u, b_u):
     return area / (pi * a_u * b_u)
