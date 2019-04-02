@@ -6,6 +6,12 @@ irrelevant_indices = [0, 1, 2, 3, 4, 5, 10, 11, 18, 19, 20, 21, 22, 23, 24, 25, 
 
 relevant_indices = [6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
 
+def add_ellipticity_df(df):
+    return df.assign(ELLIPTICITY = (1 - df.B_I) / df.A_I)
+
+def add_filling_factor(df):
+    return df.assign(FILLING_FACTOR = df.AREA / (pi * df.A_U * df.B_U))
+
 def ellipticity(a_i, b_i):
     return (1 - b_i) / a_i
 
