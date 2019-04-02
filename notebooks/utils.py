@@ -13,7 +13,7 @@ def add_filling_factor(df):
     return df.assign(FILLING_FACTOR = df.AREA / (pi * df.A_U * df.B_U))
 
 def ellipticity(a_i, b_i):
-    return (1 - b_i) / a_i
+    return 1 - b_i / a_i
 
 def filling_factor(area, a_u, b_u):
     return area / (pi * a_u * b_u)
